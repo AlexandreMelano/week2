@@ -113,6 +113,21 @@ public class gameOfWar { // this class consist of the rules for 'war'
             p1Hand.addAll(p2Hand);
             
         }
+        
+        else if (p2Card.getFaceValue() > p1Card.getFaceValue())
+        {
+            p2Hand.addAll(warPile);
+            p2Hand.addAll(p1Hand);
+            p2Hand.addAll(p2Hand);
+            
+        }
+        else 
+        {
+            warPile.add(p1Card);
+            warPile.add(p2Card);
+            this.playWarHand(warPile);
+        }
+       
     }// end of playWarHand
     
     
