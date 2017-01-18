@@ -60,6 +60,10 @@ public class Card {
         return suit;
     }
 
+    /**
+     *  This method returns face value of the card
+     * @return an INT in the range 2-14
+     */
     public int getFaceValue() {
         return faceValue;
     }
