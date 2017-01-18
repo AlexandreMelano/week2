@@ -21,7 +21,7 @@ public class gameOfWar { // this class consist of the rules for 'war'
         p2Hand = new ArrayList<>();
         
         deckOfCards theDeck = new deckOfCards();
-        theDeck
+        theDeck.shuffle();
     }// end of GameOfWar
     
 

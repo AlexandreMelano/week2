@@ -36,7 +36,7 @@ public class deckOfCards{
     }// end of constructor
 
 
-    //this method will return astring representing the deck of cards
+    //this method will return a string representing the deck of cards
     public String toString(){
     
         String deckString = "";
